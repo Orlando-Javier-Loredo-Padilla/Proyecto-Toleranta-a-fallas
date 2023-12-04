@@ -45,6 +45,17 @@ Pasaremos a hacer uso de minikube, herramienta que sirve para la implementación
 
 ![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/7563ce5b-76f4-4594-ace4-c2342ee0bc30)
 
+Lo siguiente será la demostración de los pods de cada servicio, en la consola podremos ver como estos están con el estado de running lo cual nos indican que están funcionando de manera correcta. Para la demostración utilizamos un numero de 3 pods los cuales los sometimos a solicitudes hhtps continuas, el objetivo de esto era para hacer uso de una función que implementamos antes y esa es la del balanceo de cargos, el cual al hacer la prueba funcionó correctamente. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/e4f04070-6fc7-4917-9db3-5e9cbff6a7b9)
+
+Con mimikube podremos trabajar de manera más fácil, gracias a este podemos ver la IP con la que opera cada uno de nuestros microservicios, la utilidad de esto está en que así podremos saber a que dirección tendremos que acceder desde nuestro programa para hacer uso de la función que llamemos desde este. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/5cf34fe8-d12d-4425-98f4-42e7a0c88a67)
+
+Volviendo al código, en este colocamos la IP que se nos fue dada por mimikube en la función de fetch, así al llamar la función desde nuestro programa este podrá encontrar la ubicación la cual hace tiene el microservicio que realiza dicha función llamada. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/be4b71c2-396f-4be8-ac02-21b072384881)
+
+
+
 
 
 
