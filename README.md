@@ -79,4 +79,5 @@ Usamos un archivo de prueba el cual hace uso de un ciclo while infinito para sim
 Para el chaos decidimos usar la herramienta de chaos toolkit creamos un script usando Python el cual tendrá el propósito de intentar detener los pods de manera al azar en nuestra aplicación y por consecuencia desestabilizarla. Para cumplir con el punto tolerante a fallas se buscará que al aplicarlo nuestro programa balanceé las cargas al detectar la detonación de las fallas y que de este modo la app no se caiga.
 ![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/527cc0fe-eeea-4693-ab4d-95dab6808bff)
 
-
+Para la interfaz de la app usamos HTML, el diseño por el que optamos es minimalista y con sus funciones visibles y fáciles de entender por el usuario. Este programa tiene la capacidad de cambiar entre funciones con tan solo presionar el botón que indique la función que necesite el usuario. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/09fbfc17-bbc2-422b-9a4e-4634b4f33cf5)
