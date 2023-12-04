@@ -1,0 +1,33 @@
+# metro-service-deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: metro-service-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: metro-service
+  template:
+    metadata:
+      labels:
+        app: metro-service
+    spec:
+      containers:
+      - name: metro
+        image: lujamx/metro-service:latest  # Ajusta esto a la ubicación de tu imagen
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: metro-service
+spec:
+  selector:
+    app: metro-service
+  ports:
+  - protocol: "TCP"
+    port: 80
+    targetPort: 3000
