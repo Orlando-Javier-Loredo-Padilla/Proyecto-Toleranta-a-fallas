@@ -54,6 +54,11 @@ Con mimikube podremos trabajar de manera más fácil, gracias a este podemos ver
 Volviendo al código, en este colocamos la IP que se nos fue dada por mimikube en la función de fetch, así al llamar la función desde nuestro programa este podrá encontrar la ubicación la cual hace tiene el microservicio que realiza dicha función llamada. 
 ![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/be4b71c2-396f-4be8-ac02-21b072384881)
 
+Todo lo explicado anteriormente se tendrá que replicar con cada micriservicio, como también contamos con una calculadora básica tuvimos que repetir algunos pasos.
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/623edbbe-a2c9-4490-b7fa-2b254a33878f)
+
+Para la arquitectura de nuestro programa el siguiente archivo será esencial para el funcionamiento, por una parte, una de sus fucnciones será la de estar recibiendo los datos que ingrese el usuario, esto es parte del frontend, pero viéndolo por el backend será el encargado de hacer las llamadas a los http cada vez que el usuario solicite una función. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/c9f8fcfd-b15f-47e3-be6d-fc4edd48c224)
 
 
 
