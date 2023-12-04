@@ -25,6 +25,7 @@ Ingregantes:
 -Salcido Aviña Carlos Uriel     217560751
 
 
+
 --Calculadora con el uso de istio y soporte para caos-- 
 
 Nuestro programa toma como base una calculadora con sus operaciones basicas con un sistema de conversiones de diferentes sistemas, el objetivo es hacer correr una calculadora mediante la simulación de un contedor usando docker, donde que cada una de sus funciones se aloje como un micoroservicio e implementando kubernetes para ampliar la capacidad de estos. Esto contaría como lo basico ya que implementará istio para manejar la carga de trabajo del programa y caos para comprobar su tolerancia a fallas.
