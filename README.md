@@ -19,7 +19,9 @@ Fecha: 4/12/2023
 Ingregantes:
 
 -Loredo Padilla Orlando Javier  217560328  
+
 -Portillo Correa Luis Jaime   217546155
+
 -Salcido Aviña Carlos Uriel     217560751
 
 
