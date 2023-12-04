@@ -66,4 +66,7 @@ Nuestro archivo .yaml, además de contener las especificaciones con las cuales s
 Con todo esto habremos terminado con la explicación de la estructura de nuestro programa, lo siguiente será explicar la implementación de las herramientas para la tolerancia a fallos el cual es un punto importante en la elaboración del proyecto. El primero será Istio, este programa se trata de una malla de servicios el cual se traduce como una capa de rede el cual está diseñado para funcionar principalmente con Kubernetes. Lo descargaremos desde el sitio web oficial de este y usaremos la documentación que ofrece como un soporte para ponerlo en marcha. 
 ![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/080395f3-5e27-41e6-ad9b-4fbeda1c4360)
 
+Una vez que disponemos de Istio tuvimos que inyectar el proxy de Istio en nuestros microservicios, cuando lo hayamos hecho podremos hacer uso de sus funciones en nuestro cluster de kubernetes. Con esto se crea un pod extra para cada microservicio que tengamos, con esto hecho podremos monitorear el tráfico que transcurre en la ejecución de nuestro programa al ser usado. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/3171a49d-822e-40de-90ff-19c6149abf7b)
+
 
