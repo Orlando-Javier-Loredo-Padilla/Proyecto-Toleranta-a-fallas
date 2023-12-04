@@ -69,4 +69,14 @@ Con todo esto habremos terminado con la explicación de la estructura de nuestro
 Una vez que disponemos de Istio tuvimos que inyectar el proxy de Istio en nuestros microservicios, cuando lo hayamos hecho podremos hacer uso de sus funciones en nuestro cluster de kubernetes. Con esto se crea un pod extra para cada microservicio que tengamos, con esto hecho podremos monitorear el tráfico que transcurre en la ejecución de nuestro programa al ser usado. 
 ![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/3171a49d-822e-40de-90ff-19c6149abf7b)
 
+Istio nos ofrece una serie de diferentes herramientas para la supervisión y manejo de nuestros kubernetes. Para usarlas debemos de ir a la IP que se nos da kubectl y al colocarla en el navegador iremos a un sitio web donde dispondremos un dashboard con la información de lo está ocurriendo con nuestro programa. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/03e05661-a7b9-42ca-8297-f30f87f9944f)
+
+Usamos este archivo de prueba el cual hace uso de un ciclo while infinito para simular el trafico en nuestra aplicación. 
+
+Al entrar al sitio web con la IP que se nos dio se puede observar el trafico con el cual nuestro programa está trabajando. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/6b8c4af8-ed42-405f-beba-3ec4b791a5c0)
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/ee9492c3-2d86-4fe7-84ec-8602bd6aac52)
+
+
 
