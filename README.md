@@ -3,11 +3,17 @@
 Proyecto final de la clase de Computación tolerante a fallas 
 
 Universidad de Guadalajara 
+
 Departamento:  Departamento de ciencias computacionales 
+
 Nombre del maestro: López Franco Michel Emanuel
+
 Carrera: Ingeniería en computación 
+
 Sección: D06
+
 Ciclo: 23B
+
 Fecha: 4/12/2023
 
 Ingregantes:
