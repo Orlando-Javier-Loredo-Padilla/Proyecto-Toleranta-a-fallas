@@ -26,7 +26,7 @@ Ingregantes:
 
 
 
---Calculadora con el uso de istio y soporte para caos-- 
+--Calculadora con el uso de Istio y soporte para chaos-- 
 
 Nuestro programa toma como base una calculadora con sus operaciones basicas con un sistema de conversiones de diferentes sistemas, el objetivo es hacer correr una calculadora mediante la simulación de un contedor usando docker, donde que cada una de sus funciones se aloje como un micoroservicio e implementando kubernetes para ampliar la capacidad de estos. Esto contaría como lo basico ya que implementará istio para manejar la carga de trabajo del programa y caos para comprobar su tolerancia a fallas.
 
@@ -60,7 +60,10 @@ Todo lo explicado anteriormente se tendrá que replicar con cada micriservicio, 
 Para la arquitectura de nuestro programa el siguiente archivo será esencial para el funcionamiento, por una parte, una de sus fucnciones será la de estar recibiendo los datos que ingrese el usuario, esto es parte del frontend, pero viéndolo por el backend será el encargado de hacer las llamadas a los http cada vez que el usuario solicite una función. 
 ![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/c9f8fcfd-b15f-47e3-be6d-fc4edd48c224)
 
+Nuestro archivo .yaml, además de contener las especificaciones con las cuales se creará la imagen que usará el programa será útil para la creación de cluster de kubernetes en este. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/e234454e-2114-453a-b0f6-d9c0bfd58886)
 
-
+Con todo esto habremos terminado con la explicación de la estructura de nuestro programa, lo siguiente será explicar la implementación de las herramientas para la tolerancia a fallos el cual es un punto importante en la elaboración del proyecto. El primero será Istio, este programa se trata de una malla de servicios el cual se traduce como una capa de rede el cual está diseñado para funcionar principalmente con Kubernetes. Lo descargaremos desde el sitio web oficial de este y usaremos la documentación que ofrece como un soporte para ponerlo en marcha. 
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/080395f3-5e27-41e6-ad9b-4fbeda1c4360)
 
 
