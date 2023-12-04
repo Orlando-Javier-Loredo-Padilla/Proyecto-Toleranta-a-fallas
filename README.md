@@ -31,4 +31,8 @@ Ingregantes:
 Nuestro programa toma como base una calculadora con sus operaciones basicas con un sistema de conversiones de diferentes sistemas, el objetivo es hacer correr una calculadora mediante la simulación de un contedor usando docker, donde que cada una de sus funciones se aloje como un micoroservicio e implementando kubernetes para ampliar la capacidad de estos. Esto contaría como lo basico ya que implementará istio para manejar la carga de trabajo del programa y caos para comprobar su tolerancia a fallas.
 
 
+Nuestra calculadora contiene distintos archivos para funcionar, como se mencionó se dividieron por microservicios entonces por funcionamiento dispondremos de distintos archivos los cuales contendrán una función en específico, para esto decidimos trabajar usando JavaScript. Un ejemplo sería el siguiente archivo de JS el cual contiene la función de la conversión de temperaturas, como esta parte la estaremos trabajando desde un mismo usaremos un switch para alternar entre opción que de igual manera se reflejará en la arquitectura del programa.
+![image](https://github.com/Orlando-Javier-Loredo-Padilla/Proyecto-Tolerante-a-fallas/assets/123122353/170aa849-a22f-4bfc-9f8c-3db35abbad0d)
+
+
 
